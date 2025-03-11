@@ -16,7 +16,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color:white;
-    --main-color: #557A46;
+    --main-color:  #A8CD89;
 }
 
 html{
@@ -573,6 +573,64 @@ span{
     line-height: 1.6;
     color: white;
 }
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+    /*background-color: #f9f9f9;*/
+    background-color: black;
+}
+.projects .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px  #A8CD89;
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.project-info {
+    padding: 15px;
+}
+.project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.project-info p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 15px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background:  #A8CD89;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+/*.btn:hover {
+    background: #0056b3;
+}*/
+
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
